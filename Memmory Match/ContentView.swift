@@ -13,7 +13,9 @@ struct ContentView: View {
     var body: some View {
         HStack {
             ForEach(viewModel.cards) { card in
-                CardView(card: card)
+                CardView(card: card).onTapGesture(perform: {
+                    self.viewModel.choose(card: card)
+                })
             }
         }
             .padding()
