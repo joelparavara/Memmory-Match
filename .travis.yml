@@ -1,4 +1,2 @@
 language: Swift
-rvm:
- - 4.0
- - Swift
+osx_image: xcode12u
