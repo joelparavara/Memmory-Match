@@ -1,0 +1,4 @@
+language: Swift
+rvm:
+ - 4.0
+ - Swift
