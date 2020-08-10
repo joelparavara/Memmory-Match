@@ -1,1 +1,11 @@
 language: swift
+swift: 
+- 4.2.4
+#cache: pod
+
+#before_install: 
+#install:
+#before_Script:
+#script:
+#after_success:
+#after_failure:
