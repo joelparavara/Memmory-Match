@@ -6,6 +6,9 @@
 //  Copyright © 2020 Techcrus Labs. All rights reserved.
 //
 
+
+//Minor Update
+
 import SwiftUI
 
 struct ContentView: View {
